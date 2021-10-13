@@ -1,0 +1,79 @@
+.el-input{
+      width:100%;
+      font-size: 12px;
+      .el-input__inner{
+            height:28px;
+            line-height: 28px;
+            border-radius:2px;
+      }
+      .el-input__suffix{
+            .el-input__suffix-inner{
+                  .el-input__icon{
+                        line-height:28px;
+                  }
+            }
+      }
+      .el-input__prefix{
+            .el-input__icon{
+            line-height:28px;
+            }
+      }
+      .el-input-group__prepend{
+            .el-select{
+                  .el-input__suffix{
+                        right:-28px;
+                  }
+            }
+      }
+}    
+.el-select{
+      width:100%;
+}
+.el-switch{
+      height:20px;
+      .el-switch__core{
+      border-radius:2px;
+      &:after{
+      border-radius:2px;
+      width:16px;
+      height:16px;
+      }
+      }
+      .el-switch__input{
+      color:#FFF;
+      }
+}
+.el-radio-group{
+      .el-radio-button{
+            .el-radio-button__inner{
+                  padding: 6px 20px;
+                  font-size: 12px;
+                  height:28px;
+            }
+            &:first-child{
+                  .el-radio-button__inner{
+                        border-radius: 2px 0 0 2px;
+                  }
+            }
+            &:last-child{
+                  .el-radio-button__inner{
+                        border-radius: 0px 2px 2px 0px;
+                  }
+            }
+      }
+      .el-radio{
+            .el-radio__label{
+            font-size: 12px;
+            }
+      }
+}
+.el-checkbox-group{
+      .el-checkbox{
+      .el-checkbox__label{
+      font-size:12px;
+      }
+      }
+}
+.el-tabs__content {
+    overflow: inherit;
+}

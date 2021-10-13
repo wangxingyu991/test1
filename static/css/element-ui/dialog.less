@@ -1,0 +1,87 @@
+.rh-root{
+      .rh-dialog-body{
+            padding-bottom:20px;
+      }
+      .rh-dialog-footer{
+            width: 50%;
+            margin: 0 auto;
+            padding:8px 32px 32px;
+            text-align: center;
+      }
+      .v-modal {
+            display: auto;
+      }
+      .el-dialog{
+            .el-dialog__header{
+                  padding:32px 32px 28px;
+                  .el-dialog__title{
+                        line-height: 26px;
+                        color:#252b3a;
+                        font-weight: 700;
+                  }
+            }
+            .el-dialog__body{
+                  padding:0 32px ;
+                  box-sizing:border-box;
+                  border-bottom:20px solid transparent;
+                  overflow: auto;
+            }
+      }
+      .el-button{
+            &.el-button--default{
+                  padding: 0px 20px;
+                  line-height: 26px;
+                  font-size: 12px;
+                  border-radius: 2px;
+                  background: #fff;
+                  color:#000;
+                  &:hover{
+                        color:#5e7ce0;
+                        background: #fff;
+                  }
+                  &:focus{
+                        color:#5e7ce0;
+                        background: #fff;                 
+                  }
+            }
+      }
+
+      //抽屉弹出层
+      .el-drawer{
+            .el-drawer__header{
+                  font-size: 18px;
+                  font-weight: 700;
+                  position: absolute;
+                  right: 0px;
+                  top: 0px;
+                  z-index: 99;
+            }
+            .el-drawer__body{
+                  height: 100%;
+                  .rh-drawer-body{
+                        // height:calc(100% - 168px);
+                        overflow: initial;
+                  }
+            }
+            .drawer-wrap{
+                  overflow: auto;
+                  height:100%;
+            }
+      }
+      .el-drawer{
+            .rh-drawer-head{
+                  padding:32px;
+                  font-size: 18px;
+                  font-weight: 700;
+                  .drawer-title{
+                        font-size: 18px;
+                        font-weight: 700;
+                  }
+            }
+            .rh-drawer-body{
+                  padding:32px;
+                  padding-bottom: 0px;
+                  padding-top: 0px;
+            }
+      }
+}
